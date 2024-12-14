@@ -1,0 +1,35 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgb(211, 215, 214);
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(250, 253, 244);
+}
+.nav-item {
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nav-item li{
+    display: inline-block;
+    margin-right: 2em;
+}
+.food-search{
+    width: 30vw;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    box-shadow: 1px -0px 5px rgb(128, 123, 123);
+    padding: 10px;
+    font-size: 15px;
+}
+.project-name{
+    color: rgb(100, 91, 91);
+}
