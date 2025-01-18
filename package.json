@@ -17,7 +17,7 @@
      "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/kethankoushik09/Food-recipe",
+  "homepage": "https://kethankoushik09.github.io/Food-recipe/",
 
   "eslintConfig": {
     "extends": [
