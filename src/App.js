@@ -21,7 +21,6 @@ function App() {
   return (
     <Customflagcontext>
       <RouterProvider router={rt} 
-      // future={{ v7_startTransition: true }}
       future={{
         v7_startTransition: true, // Include the previous flag if needed
         v7_fetcherPersist: true, // Add this to enable the new fetcher behavior
